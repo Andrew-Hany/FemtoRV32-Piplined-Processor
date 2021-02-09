@@ -1,0 +1,12 @@
+.text
+#intializing some data in registers
+lw t1,0(zero)#4000       pc =0
+lw t2,4,(zero) #4000      pc =4
+lw t3,8(zero)#-2       pc =8
+
+
+sw t3,0(zero) # -2   //data 2 
+lw t5,0(zero) # -2 // mem_dataout 
+
+sh t2,4(zero) # 
+lw t6,4,(zero) 

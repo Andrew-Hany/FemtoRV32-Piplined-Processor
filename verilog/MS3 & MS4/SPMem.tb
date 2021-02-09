@@ -1,0 +1,70 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 11/15/2020 02:27:03 AM
+// Design Name: 
+// Module Name: SP_memory_tb
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module SP_memory_tb(
+
+    );
+    
+    
+   reg  sclk;
+   reg  [31:0] addr;
+   reg  MemRead=1;
+   reg MemWrite=0;
+   reg [2:0] func3;
+   wire[31:0] data_out;
+   reg [31:0]readData2=50;
+   
+   SPMemory adasdas( sclk, addr, MemRead,  MemWrite,
+  func3,readData2, data_out);
+     
+     initial
+     begin
+     sclk = 0;
+     forever #50 sclk=~sclk;
+     end
+     
+     initial 
+     begin
+  
+//     MemRead=1;
+addr=2000;
+ func3=3'b010;
+MemWrite=1;
+     #100;
+     addr=2004;
+MemWrite=1;
+     func3=3'b000;
+     readData2=100110;
+     #100
+     addr=20;
+     MemWrite=1;
+     readData2=3030;
+      func3=3'b001;
+//     #100
+//     MemRead=1;
+     
+          end
+     
+     
+    
+endmodule
+

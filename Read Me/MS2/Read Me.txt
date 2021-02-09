@@ -1,0 +1,17 @@
+Group members : Andrew Hany Nady 900184042 
+                Salma Soliman    900182325  ( leader ).
+
+/*******************************************/
+
+All instructions are supported except for ecall,fence & ebreak.
+
+/*******************************************/
+
+1) we considered our memory as a word addressable one. so for s-type instructions and u-type ones 
+   we assumed that byte = 8 bits from the 32 bits && half word = 16 bits 
+
+2) after adding each group of instructions , we made a test cases for them and checked that they all are working correctly.
+   However, we added additional test cases in the last day.
+
+3) while testing we discovered that the sh/sb are not working correctly. 
+

@@ -1,0 +1,48 @@
+MS 2&2
+==========
+Andrew Nady 
+900184042
+==========
+2/11/2020  :
+                1) lab 8: we worked on the forwarding unit
+                2)hazard unit
+                3)flushing 
+
+
+           
+9/11/2020  : 
+                    it was the support session of the lab 
+                1) we begin supporting the instructions to the pipelined   
+                2) we first supported  R-type and I-type 
+                3)tested them using the same testcase from MS 2
+                4)supported Auipc ,jal and the branches
+                5)we also supported jalr but it is not working yet 
+                6)we tested most of the instructions with the testcase we had from MS 2
+
+    
+11/11/2020  : 
+                1) we supported LUI
+                2)we added the ecall, fence, ebreak 
+                3)tested the ecall 
+
+14/11/2020 &15/11/2020 : we start thinking about the single proted memory 
+            1)we did it and made for it a testbench to test it alone 
+            2) it worked
+
+16/11/2020  : in the support lab, we tried to integrate the Sp memory inside the full_path
+            1) there were some issues, but with the help of the TA, we managed to solve all of them
+
+19/11/2020  : we were almost done so we decided to work on the bouns 
+            1) so we decidedto make MUL,MULH,DIV, REM
+            2)we write the code and made for them testcases
+            3)some of them worked, however we took abreak 2 hours and came to find that all our work is deleted , so the bouns aprt is deleted
+20/11/2020  : this is the disastrous day as we find all the files deleted
+        1) it is not the only problem, when we copying the files we have, we find errors
+        2) and tried to debug againg more than 2 or 3 hours, we discovered that there is problems of the copyied files and we tried to copy what mad the problem
+        3)The whole process took from us more than 6 hours
+        4) we tried to fix the jalr, we manage to did this but there was a small error that we waited for the TA to solve
+
+23/11: 1) we dicovered that we did flush the instruction in the jalr case so we handled tha instructions
+24/11 : !writing the report 
+        2)takinh some screenshots
+        3)finalizing the project

@@ -1,0 +1,26 @@
+Group members : Andrew Hany Nady 900184042 
+                Salma Soliman    900182325  ( leader ).
+
+/*******************************************/
+
+All instructions are supported and they are all working correctly.
+All instructions are tested on the simulation and the FPGA.
+All types of hazards are handled.
+
+/*******************************************/
+
+Notes :
+ 1) We worked on the bonus related to the multiplication and division on thursday 19th of Nov (yes, the night of the crisis)
+    (6pm-11pm)  
+    we just needed a couple of hours to get everything working correctly.Unfortunately, The VNC incident happened and we did not save the bonus work!
+    Thankfully, we had a pre-final version of our work saved on our google drive.
+
+    We got the PC again on saterday. We found a version of our work in the recycle pin that dates back to 9th Nov (10 days ago). 
+    We though that it would save us time if we modified it instead of making a new project on vivado again. IT WAS NOT A WISE DECISION :")
+    We spent the whole sunday and Monday just debbuging things that already worked previously correct! We did not have the time
+    to continue (restart) the bonus part again.
+    
+
+*** Note ***
+- All of this happened while , me and andrew , had a midterm on monday , a midterm on tuesday , a midterm on wednesday and other projects and assignments delivered this week.
+

@@ -1,0 +1,36 @@
+//------------------------------- ID_EX--------------------------------
+
+ sixtyFour_reg #(155) ID_EX (clk, 1'b1,
+ {memtoreg,regwrite,memread,memwrite,
+  branch,aluop,alusrc ,  IF_ID_PC  ,  readdata1, readdata2
+ ,gen_out,{IF_ID_Inst[30],IF_ID_Inst[14:12]},IF_ID_Inst[11:7]
+ ,IF_ID_Inst[19:15],IF_ID_Inst[24:20]
+  },rst,
+ 
+{{memtoreg_ID_out,regwrite_ID_out, memread_ID_out, memwrite_ID_out, branch_ID_out,aluop_ID_out
+,alusrc_ID_out},IF_ID_PC_ID_out, readdata1_ID_out,readdata2_ID_out,
+  gen_out_ID_out
+ ,ints_out_ID_out_up
+ , ints_out_ID_out_down
+ ,RS1,RS2
+ });
+
+
+//shifting left  (done)
+ shiftLeft sh(gen_out_ID_out ,shiftout);
+//mux (DONE)
+
+
+  FourMuxForward mux_one (readdata1_ID_out,writingData, ALU_result_EX_out, forwardA, RD1_output);
+  FourMuxForward mux_two (readdata2_ID_out,writingData, ALU_result_EX_out, forwardB, RD2_output);
+  
+   ThirtytwoMUX mux (RD2_output,gen_out_ID_out,alusrc_ID_out ,outmux_input_alu);
+   Forward_unit fowr( RS1,RS2, ints_out_EX_out_down,ints_out_MEM_out_down
+ ,   regwrite_EX_out, regwrite_MEM_out,forwardA,forwardB 
+     );
+ //ALU  (Done)
+ ALU alu(
+ RD1_output, outmux_input_alu,
+ aluS,
+ ALU_result,  zero );
+ 

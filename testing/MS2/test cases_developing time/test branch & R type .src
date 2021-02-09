@@ -1,0 +1,15 @@
+.text
+
+ 
+lw t1,0(zero) #10       pc =0
+lw t2,4,(zero) #1      pc =4
+lw t3,8(zero) #-2       pc =8
+
+srl t4,t1,t2  # 5        pc =12
+sll t5,t1,t2   #20        pc =16 
+slt t6, t2,t1  #1        pc =20
+
+bltu t2,t3, exit                #pc =24
+slt t6, t2,t1         #pc =28
+exit:
+slt t6, t2,t1         #pc=32

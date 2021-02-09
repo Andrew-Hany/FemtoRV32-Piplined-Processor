@@ -1,0 +1,29 @@
+Mile Stone 1
+----------------------
+Andrew Nady
+900184042
+---------------------
+Sunday  25/10/2020:
+(2pm - 12am)
+1) there were some errors i tried to solve
+2) then we bgin to support all the R-type in the Alu-control 
+3) then adding some functinalities that can be support the R-type 
+4) wrote risc-v program to test R-type
+5) we started in the branches, so we modified the fuc3 to the Alu and handled the branches in the ALu using if/else
+6) wrote risc-v program to test R-type
+
+
+monday:
+(4pm-9pm)
+1)we added the load instructions and store (data )
+2)we added the I-type
+3) make 2 risc-v programs for the load and the I_type
+(11pm-3am)
+1)we begin thinking of how to make Jal and Jalr and Auipc
+2)we finsihed the FourToOne module and finished the AUIPC and the Jal instructions
+
+Tuesday:
+(9pm-3pm)
+1)we dicovered our folder is deleted from the Pc the cycle bin 
+2)we wrote again the code for the instructions Jal and Auipc
+3) finished the rest of the instructions (Lui and Jalr)

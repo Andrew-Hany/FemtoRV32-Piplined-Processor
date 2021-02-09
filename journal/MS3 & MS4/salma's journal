@@ -1,0 +1,46 @@
+Journal Phase 2 :
+=================
+Name : salma soliman 
+ID   : 900182325
+=================
+Monday 2nd Nov     : 1) Working on lab (8) materials to create a forwarding unit,hazard detection unit and the additional muxes. (3:30pm - 10pm) 
+                  
+
+Thursday 5th Nov   : 1) Debugging what was wrong in the forwarding unit. with TA omar elmahdy (6pm-7pm)
+                     2) Thinking of the ECALL instruction logic and tried to implement it (10pm-11pm)
+                   
+                 
+Friday 6th Nov     : 1) Debugging what was wrong in the forwarding unit with TA AbdelHady (7pm-9:30pm)
+                     2) Testing that materials of lab (8) are working correctly.
+                     3) Implemented the Ecall correctly with the help of Abdelhady (9:30pm-10pm)
+
+                                                           
+
+Monday 9th Nov     : 1) we used the support session of the lab to support more instructions.
+                        we supported R-type,I-type,AUICPC,JAL,JALR and branching (3:30pm-10pm)
+                     2) tested all supported instructions.
+
+
+Wednesday 11th Nov : 1) Supported LUI instruction (9pm-11pm)
+                     1) JAL/JALR/LUI/ECALL/EBREAK/FENCE
+                       STILL THE TESTING 
+
+Friday 13th Nov    : 1) Abdelhady's help in explaining Single ported Memory diagram.
+ 
+Saterday 14th Nov  : 1) Worked on Supporting the Single-Ported Memory (6pm-12am)
+
+Sunday   15th Nov  : 1) Debugging SP memory (6-9pm)
+
+Monday   16th Nov  : 1) Lab session support for the project (3:30pm-10pm)
+
+Thursday 19th Nov  :  1) We started working on the bonus part of multiplication and division operations. (6pm-9:30pm)
+                      2) We decided to continue working on the bonus at 1am but the VNC issue occured 
+                         and it lasted for 14 hours without reaching to our PC nor files.
+
+Friday   20th Nov  :  1) We got our PC at 4pm and found that files were deleted but we found an old out-dated version of our project that
+                         dates back to 10/11, which was 10 days ealier.
+Saterday 21th Nov     2) We started combining the old files with the recent ones. This process costed us 6+ hours of debugging stuff 
+                         we already made sure previously that's working correctly! (6pm-2am) + we lost 
+                         what we did in the bonus part cause we did not have a packup for :")
+                      3) We tried to support JALR (2am-6am)
+

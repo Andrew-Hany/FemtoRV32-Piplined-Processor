@@ -1,0 +1,30 @@
+Journal Phase 1 :
+=================
+Name : salma soliman 
+ID   : 900182325
+=================
+saturday 24th Oct : 1) Editing immediate generator module to cope with all 40 instructions.
+                    2) Modified ALU module to accomodate all types of branching and XOR instruction.  
+                    3) Modified ALU Control Unit module to cope with some instructions.
+                    4) Added comments in some files.(6pm-10pm)
+
+Sunday 25th Oct   : 1) Changed the control unit module again.
+                    2) Modified ALU control unit module to add the rest of R-type instructions.
+                    3) Modified the ALU module to support the rest of R-type instructions.  
+                    4) Made some small test cases for the new added instructions and modified the Mem module accordingly.(3pm-8:30pm)
+                 
+Monday 26th Oct   : 1) Added the Loud instructions codes ( lw,lh,lb,lbu..) in the Datamem module.
+                    2) Handled the signals of the I-type instructions.
+                    3) Traced the new provided instructions.(4pm-9pm)+(11pm-2am)
+
+                                                           
+
+Tuesday 27th Oct  : 1) Prayed to thank god that I saved the pre-final version of our project code 
+                       as we suddenly did not find our project directory in the desktop nor 
+                       in the recycle bin and after this midterm of this lab,
+                       the whole project disappeared :) ( 30 mins to retreve all the files + 5 min praying) 
+                           
+Wednesday 28th Oct: 1) Divided the rest of messions between us. 
+                    2) Wrote the introduction & Algorithm parts in the Report. ( 6:30 pm-12 )
+                    3) Tested the whole group of instructions.
+          
